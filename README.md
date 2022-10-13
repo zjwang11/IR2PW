@@ -13,7 +13,7 @@ src_ir2pw_VASP.tar.gz:interface with the Vienna ab-initio Simulation Package.
 
 
 # ir2tb
-to compute irreducible representations by linking the IRVSP library to tight-binding (TB) model.
+to compute irreducible representations by linking the IRVSP library to tight-binding (TB) model. </br>
 It works for phonon, elctron, magnon states.
 
 src_ir2tb_v1.tar.gz : for symmorphic crystals 
