@@ -26,5 +26,5 @@ It works for phonon, elctron, magnon systems.
 * src_ir2tb_ort.tar.gz : interface to orthogonal TB model.</br>
 required files: tbbox.in and hr.dat
                      
-* src_ir2tb_ort.tar.gz : interface to QE phonon q calculations. </br>
+* src_ir2tb_phq.tar.gz : interface to QE phonon q calculations. </br>
 required files: ph_q.out and dynamic_x.xxx
