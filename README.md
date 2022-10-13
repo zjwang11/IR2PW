@@ -3,14 +3,18 @@ to compute irreducible representations by linking the library (libIRVSP.a) to PW
 
 
 # ir2pw
-to compute irreducible representations of states in PW-based ab-initio packages.
+to compute irreducible representations by linking the IRVSP library to plane-wave (PW) DFT packages.
 
-src_ir2pw_v2.tar.gz : for all crystals in 1651 magnetic space groups
+src_ir2pw_QE.tar.gz  :interface with the Quantuam-Express DFT package.
+                      according to the CRTs on the Bilbao Crystallographic Server (BCS).
+
+src_ir2pw_VASP.tar.gz:interface with the Vienna ab-initio Simulation Package.
                       according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 
 # ir2tb
-to compute irreducible representations of states in the (electronic or phononic) tight-binding Hamiltonian.
+to compute irreducible representations by linking the IRVSP library to tight-binding (TB) model.
+It works for phonon, elctron, magnon states.
 
 src_ir2tb_v1.tar.gz : for symmorphic crystals 
                       according to the character tables (CRTs) of point-group (PNG) symmetries.
