@@ -3,13 +3,15 @@ to compute irreducible representations by linking the library (libIRVSP.a) to PW
 The library is created by IRVSP, according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
 
-# ir2pw
+# ir2pw (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
 
-src_ir2pw_QE.tar.gz  :interface to the Quantuam-Express DFT package.
+src_ir2pw_QE.tar.gz  :interface to the Quantuam-Express DFT package.</br>
+required files: nscf_b.out and "output" directory
                       
 
-src_ir2pw_VASP.tar.gz:interface to the Vienna ab-initio Simulation Package.
+src_ir2pw_VASP.tar.gz:interface to the Vienna ab-initio Simulation Package.</br>
+required files: OUTCAR and WAVECAR
 
 
 # ir2tb
