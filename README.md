@@ -20,8 +20,11 @@ required files: OUTCAR and WAVECAR
 
 
 # ir2tb
-to compute irreducible representations with interface to tight-binding (TB) models. </br>
+to compute irreducible representations with interface to orthogonal tight-binding (TB) models. </br>
 It works for phonon, elctron, magnon systems.
 
-* src_ir2tb.tar.gz : interface to Wannier90-based TB model.
+* src_ir2tb_ort.tar.gz : interface to orthogonal TB model.</br>
+required files: tbbox.in and hr.dat
                      
+* src_ir2tb_ort.tar.gz : interface to QE phonon q calculations. </br>
+required files: ph_q.out and dynamic_x.xxx
