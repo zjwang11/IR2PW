@@ -12,7 +12,7 @@ The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Si
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
 
 * src_ir2pw_QE.tar.gz  :interface to the Quantum-Espresso package.</br>
-required files: nscf_b.out and "output" directory
+required files: nscf_b.out and $outdir (output directory)
                       
 
 * src_ir2pw_VASP.tar.gz:interface to the Vienna ab-initio Simulation Package.</br>
@@ -27,4 +27,4 @@ It works for phonon, elctron, magnon systems.
 required files: tbbox.in and hr.dat
                      
 * src_ir2tb_phq.tar.gz : interface to QE phonon q calculations. </br>
-required files: ph_q.out and dynamic_x.xxx
+required files: ph_q.out and $fildyn (ph.dyn0, ph.dyn1, ph.dyn...)
