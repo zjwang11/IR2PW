@@ -2,6 +2,8 @@
 to compute irreducible representations by linking the library (libIRVSP.a) to PW code and TB model.</br>
 The library is created by IRVSP, according to the CRTs on the Bilbao Crystallographic Server (BCS).
 
+# libIRVSP.a 
+* The library can be linked to by DFT packages, such as VASP, Quantum espresso, Siesta, Abinit, ELK, Wien2k.
 
 # ir2pw (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
