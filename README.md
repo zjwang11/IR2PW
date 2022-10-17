@@ -48,3 +48,4 @@ axiliaries:
 # Notices
 * Please put all these folders in the same directory in order to make it successfully.
 * Make the IRVSP library first. Then make IR2PW/IR2TB.
+* ir2pw/irvsp/ir2tb -sg xx -nb xx xx >outir2
