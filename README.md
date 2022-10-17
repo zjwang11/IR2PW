@@ -35,4 +35,4 @@ required files: ph_q.out and $fildyn (ph.dyn0, ph.dyn1, ph.dyn...) </br>
 axiliaries: 
 
           dyn2wf.py  : to convert  .dyn* to phonon wavefunctions
-          mode2wf.py : to convert .modes to phonon wavefunctions. 
+          mode2wf.py : to convert .modes to phonon wavefunctions 
