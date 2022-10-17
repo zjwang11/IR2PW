@@ -43,3 +43,7 @@ axiliaries:
 
           dyn2wf.py  : to convert  .dyn* to phonon wavefunctions
           mode2wf.py : to convert .modes to phonon wavefunctions 
+
+
+# Notices
+* Please put all these folders in the same directory.
