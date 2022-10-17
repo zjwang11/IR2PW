@@ -34,6 +34,5 @@ axiliaries:
 required files: ph_q.out and $fildyn (ph.dyn0, ph.dyn1, ph.dyn...)
 axiliaries: 
 
-   pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in
-   dyn2wf.py  : to convert  .dyn* to phonon wavefunctions
-   mode2wf.py : to convert .modes to phonon wavefunctions. 
+          dyn2wf.py  : to convert  .dyn* to phonon wavefunctions
+          mode2wf.py : to convert .modes to phonon wavefunctions. 
