@@ -46,4 +46,5 @@ axiliaries:
 
 
 # Notices
-* Please put all these folders in the same directory.
+* Please put all these folders in the same directory in order to make it successfully.
+* Make the IRVSP library first. Then make IR2PW/IR2TB.
