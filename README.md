@@ -9,12 +9,10 @@ See the library details in Ref: J. Gao, et al. Comput. Phys. Comm. 261, 107760 (
 
 * lib_irrep_bcs.tar.gz : The IRVSP library released on 2023.x.XX.
 * how to make:
-
       $  tar -zxvf lib_irrep_bcs.tar.gz
       $  cd lib_irrep_bcs
       $  ./configure.sh
       $  make
-
 # IR2PW (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
 
