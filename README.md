@@ -7,11 +7,10 @@ The library is created by IRVSP (v2), according to the CRTs on the Bilbao Crysta
 The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Siesta, Abinit, ELK and Wien2k etc.
 
 * lib_irrep_bcs.tar.gz : The IRVSP library released on 2023.x.XX.
-* how to make:
+* how to make in lib_irrep_bcs folder
 
-      $$   sdfasdf
-      $$   asfdasdf
-      $$  sdfasdf
+      $$  ./configure.sh
+      $$  make
 
 # IR2PW (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
