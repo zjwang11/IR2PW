@@ -18,11 +18,11 @@ See the library details in Ref: J. Gao, et al. Comput. Phys. Comm. 261, 107760 (
 # IR2PW (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
 
-* src_ir2pw_QE.tar.gz  :interface to the Quantum-Espresso package.</br>
+* src_ir2pw_QE.tar.gz: interface to the Quantum-Espresso package.</br>
 required files: nscf_b.out and $outdir (output directory)
                       
 
-* src_ir2pw_VASP.tar.gz:interface to the Vienna ab-initio Simulation Package.</br>
+* src_ir2pw_VASP.tar.gz: interface to the Vienna ab-initio Simulation Package.</br>
 required files: OUTCAR and WAVECAR
 
 
