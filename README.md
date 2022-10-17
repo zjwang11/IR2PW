@@ -8,7 +8,7 @@ The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Si
 
 * lib_irrep_bcs.tar.gz : The IRVSP library released on 2023.x.XX.
 
-# ir2pw (with interface to QE, VASP)
+# IR2PW (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
 
 * src_ir2pw_QE.tar.gz  :interface to the Quantum-Espresso package.</br>
@@ -19,12 +19,12 @@ required files: nscf_b.out and $outdir (output directory)
 required files: OUTCAR and WAVECAR
 
 
-# ir2tb
-to compute irreducible representations with interface to orthogonal tight-binding (TB) models. </br>
+# IR2TB
+to compute irreducible representations with interface to orthogonal tight-binding (TB) models (Wannier90, Slater-Koster, Phonon TB). </br>
 It works for phonon, elctron, magnon systems.
 
-* src_ir2tb_hr.tar.gz : interface to orthogonal TB model.</br>
-required files: tbbox.in and hr.dat </br>
+* src_ir2tb_wann.tar.gz : interface to orthogonal TB model.</br>
+required files: tbbox.in and wann_hr.dat </br>
 axiliaries: pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in </br>
             fc2hr.py
                      
