@@ -1,5 +1,5 @@
-# IR2PW and IR2TB
-to compute irreducible representations by linking the library (libIRVSP.a) to PW code and TB model.</br>
+# IR2PW and IR2TR
+to compute Irreducible Representations by linking the library (libIRVSP.a) to PW code and TB model.</br>
 
 
 # libIRVSP.a 
