@@ -19,7 +19,7 @@ required files: nscf_b.out and $outdir (output directory)
 required files: OUTCAR and WAVECAR
 
 
-# IR2TB (with interface to Wannier90， QE/ph.x)
+# IR2TB (with interface to Wannier90，QE/ph.x)
 to compute irreducible representations with interface to orthogonal tight-binding (TB) models (Wannier90, Slater-Koster, Phonon TB). </br>
 It works for phonon, elctron, magnon systems.
 
