@@ -23,7 +23,7 @@ required files: OUTCAR and WAVECAR
 to compute irreducible representations with interface to orthogonal tight-binding (TB) models (Wannier90, Slater-Koster, Phonon TB). </br>
 It works for phonon, elctron, magnon systems.
 
-* src_ir2tb_wann.tar.gz : interface to orthogonal TB model.</br>
+* src_ir2tb_wann.tar.gz : interface to orthogonal TB model. </br>
 required files: tbbox.in and wann_hr.dat </br>
 axiliaries: 
 
@@ -31,7 +31,7 @@ axiliaries:
           fc2hr.py       : to convert  xx.fx to wann_hr.dat
 
 * src_ir2tb_phx.tar.gz : interface to QE phonon (q) calculations. </br>
-required files: ph_q.out and $fildyn (ph.dyn0, ph.dyn1, ph.dyn...)
+required files: ph_q.out and $fildyn (ph.dyn0, ph.dyn1, ph.dyn...) </br>
 axiliaries: 
 
           dyn2wf.py  : to convert  .dyn* to phonon wavefunctions
