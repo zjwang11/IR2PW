@@ -1,9 +1,9 @@
 # IR2PW and IR2TR
-to compute Irreducible Representations by linking the library (libIRVSP.a) to PW code and TB model.</br>
+to compute Irreducible Representations by linking the IRVSP library (libIRVSP.a) to PW code and TB model.</br>
 
 
 # libIRVSP.a 
-The library is created by IRVSP, according to the CRTs on the Bilbao Crystallographic Server (BCS). </br>
+The library is created by IRVSP (v2), according to the CRTs on the Bilbao Crystallographic Server (BCS). </br>
 The library can be linked to by DFT packages, such as Quantum Espresso, VASP, Siesta, Abinit, ELK and Wien2k etc.
 
 * lib_irrep_bcs.tar.gz : The IRVSP library released on 2023.x.XX.
