@@ -20,7 +20,13 @@ to compute irreducible representations with interface to plane-wave (PW) DFT pac
 
 * src_ir2pw_QE.tar.gz: interface to the Quantum-Espresso package.</br>
 required files: nscf_b.out and $outdir (output directory)
-                      
+\# set nscf_b:in
+
+      calculation = 'bands'
+       outdir     = './tmp'
+         verbosity= 'high'
+
+ph.x -in nscf_b.in >nscf_b.out
 
 * src_ir2pw_VASP.tar.gz: interface to the Vienna ab-initio Simulation Package.</br>
 required files: OUTCAR and WAVECAR
