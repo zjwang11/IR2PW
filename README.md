@@ -7,7 +7,7 @@ The library is created by IRVSP (v2), according to the CRTs on the Bilbao Crysta
 It can be linked to by DFT packages, such as Quantum Espresso, VASP, Siesta, Abinit, ELK and Wien2k etc. </br>
 See the library details in Ref: J. Gao, et al. Comput. Phys. Comm. 261, 107760 (2021). https://doi.org/10.1016/j.cpc.2020.107760.
 
-* lib_irrep_bcs.tar.gz : This IRVSP library is released on 2022.10.18.
+* lib_irrep_bcs.tar.gz : The IRVSP library is released on 2022.10.18.
 * how to make:
 
       $  tar -zxvf lib_irrep_bcs.tar.gz
