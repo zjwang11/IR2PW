@@ -24,7 +24,7 @@ required files: nscf_b.out and $outdir (output directory) </br>
 
       calculation = 'bands'
        outdir     = './tmp'
-         verbosity= 'high'
+      verbosity   = 'high'
 
 \# ph.x -in nscf_b.in >nscf_b.out
 
