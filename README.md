@@ -30,7 +30,7 @@ required files: OUTCAR and WAVECAR
 to compute irreducible representations with interface to orthogonal tight-binding (TB) models (Wannier90, Slater-Koster, Phonon TB). </br>
 It works for phonon, elctron, magnon systems.
 
-* src_ir2tb_wann.tar.gz : interface to orthogonal TB model. </br>
+* src_ir2tb_hr.tar.gz : interface to orthogonal TB model. </br>
 required files: tbbox.in and wann_hr.dat </br>
 axiliaries: 
 
