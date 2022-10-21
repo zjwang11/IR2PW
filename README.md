@@ -42,7 +42,7 @@ axiliaries:
           pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in 
           fc2hr.py       : to convert  xx.fx to wann_hr.dat
 
-* src_ir2tb_ph.tar.gz : interface to QE phonon (q) calculations. </br>
+* src_ir2ph_mode.tar.gz : interface to QE phonon (q) calculations. </br>
 required files: ph_q.out and $fildyn (ph.dyn0, ph.dyn1, ph.dyn...) </br>
 axiliaries: 
 
