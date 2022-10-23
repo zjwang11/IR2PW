@@ -33,7 +33,7 @@ required files: OUTCAR and WAVECAR
 
 # IR2TB (with interface to Wannier90，QE/ph.x)
 to compute irreducible representations with interface to orthogonal tight-binding (TB) models (Wannier90, Slater-Koster, Phonon TB). </br>
-It works for phonon, elctron, magnon systems.
+It works for phonon, electron, magnon systems.
 
 * src_ir2tb_hr.tar.gz : interface to orthogonal TB model. </br>
 required files: tbbox.in and ldawann_hr.dat </br>
