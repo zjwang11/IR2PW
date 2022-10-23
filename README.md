@@ -40,7 +40,7 @@ required files: tbbox.in and lda_hr.dat/soc_hr.dat </br>
 axiliaries: pwscf2tbbox.py and fc2hr.py
 
           pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in 
-          fc2hr.py       : to convert ph.fc to phonon TB lda_hr.dat
+          fc2hr.py       : to convert ph.fc to phonon TB ph_hr.dat
 
 * src_ir2tb_ph.tar.gz : interface to QE phonon (q) calculations. </br>
 required files: tbbox.in and ph_wf.dat </br>
