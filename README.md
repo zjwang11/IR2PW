@@ -36,14 +36,14 @@ to compute irreducible representations with interface to orthogonal tight-bindin
 It works for phonon, electron, magnon systems.
 
 * src_ir2tb_hr.tar.gz : interface to orthogonal TB model. </br>
-required files: tbbox.in and ldawann_hr.dat </br>
+required files: tbbox.in and lda_hr.dat/soc_hr.dat </br>
 axiliaries: 
 
           pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in 
           fc2hr.py       : to convert ph.fc to phonon TB wann_hr.dat
 
 * src_ir2tb_ph.tar.gz : interface to QE phonon (q) calculations. </br>
-required files: q*.out and q*.dyn (q0.dyn, q1.dyn, q2.dyn...) </br>
+required files: tbbox.in and lda_wf.dat </br>
 axiliaries: 
 
           IRphx.sh : ph.inp and/or q*.dyn/q*-out
