@@ -46,7 +46,9 @@ axiliaries:
 required files: q*.out and q*.dyn (q0.dyn, q1.dyn, q2.dyn...) </br>
 axiliaries: 
 
-          dyn2wf.py  : to convert  q*.dyn to phonon TB wavefunctions
+          IRphx.sh : ph.inp and/or q*.dyn/q*-out
+          1. to prepare q*.inp (from ph.inp)
+          2. to convert q*.dyn to lda_wf.dat
 
 
 # Notices
