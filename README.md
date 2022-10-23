@@ -1,4 +1,4 @@
-# IR2PW and IR2TB
+# IR2PW and IR2PH
 to compute Irreducible Representations by linking the IRVSP library (libIRVSP.a) to PW code and TB model.</br>
 
 
@@ -36,18 +36,17 @@ to compute irreducible representations with interface to orthogonal tight-bindin
 It works for phonon, elctron, magnon systems.
 
 * src_ir2tb_hr.tar.gz : interface to orthogonal TB model. </br>
-required files: tbbox.in and wann_hr.dat </br>
+required files: tbbox.in and ldawann_hr.dat </br>
 axiliaries: 
 
           pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in 
-          fc2hr.py       : to convert  xx.fx to wann_hr.dat
+          fc2hr.py       : to convert ph.fc to phonon TB wann_hr.dat
 
-* src_ir2ph_mode.tar.gz : interface to QE phonon (q) calculations. </br>
-required files: ph_q.out and $fildyn (ph.dyn0, ph.dyn1, ph.dyn...) </br>
+* src_ir2ph_dyn.tar.gz : interface to QE phonon (q) calculations. </br>
+required files: q*.out and q*.dyn (q0.dyn, q1.dyn, q2.dyn...) </br>
 axiliaries: 
 
-          dyn2wf.py  : to convert  .dyn* to phonon wavefunctions
-          mode2wf.py : to convert .modes to phonon wavefunctions 
+          dyn2wf.py  : to convert  q*.dyn to phonon TB wavefunctions
 
 
 # Notices
