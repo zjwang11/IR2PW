@@ -43,12 +43,12 @@ axiliaries:
           fc2hr.py       : to convert ph.fc to phonon TB lda_hr.dat
 
 * src_ir2tb_ph.tar.gz : interface to QE phonon (q) calculations. </br>
-required files: tbbox.in and lda_wf.dat </br>
+required files: tbbox.in and ph_wf.dat </br>
 axiliaries: 
 
           IRphx.sh : ph.inp and/or q*.dyn/q*-out
           1. to prepare q*.inp (from ph.inp)
-          2. to convert q*.dyn to lda_wf.dat
+          2. to convert q*.dyn to ph_wf.dat
 
 
 # Notices
