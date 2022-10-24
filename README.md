@@ -24,6 +24,7 @@ required files: nscf_b.out and ./tmp (output directory) </br>
  \$ vim nscf_b.in
 
       calculation = 'bands'
+       prefix     = 'pwscf'
        outdir     = './tmp'
       verbosity   = 'high'
       
@@ -49,9 +50,14 @@ required files: tbbox.in and ph_wf.dat </br>
 axiliaries: IRphx.sh <br>
  \$ vim ph.inp <br>
 
-      asf
-      bb
-      
+      phonons of  q-grid
+       &inputph
+        tr2_ph=1.0d-12,
+        prefix='pwscf',
+        outdir='./tmp',
+        fildyn='ph.dyn',
+       /
+       0 0 0
       
    \$ IRphx.sh <br>
    \$ ph.x < q*.inp > q*-out <br>
