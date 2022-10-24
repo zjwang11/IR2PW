@@ -59,9 +59,9 @@ axiliaries: IRphx.sh <br>
        /
        0 0 0
       
-   \$ IRphx.sh <br>
+   \$ IRphx.sh $sgn <br>
    \$ ph.x < q*.inp > q*-out <br>
-   \$ IRphx.sh 
+   \$ IRphx.sh $sgn \# generate ph_wf.dat
  
       IRphx.sh : ph.inp and/or q*.dyn/q*-out
       1. to prepare q*.inp (from ph.inp)
