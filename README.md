@@ -19,7 +19,7 @@ See the library details in Ref: J. Gao, et al. Comput. Phys. Comm. 261, 107760 (
 # IR2PW (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
 
-* src_ir2pw_QE.tar.gz: interface to the Quantum-Espresso package.</br>
+* ir2pw in src_ir2pw_QE.tar.gz: interface to the Quantum-Espresso package.</br>
 required files: nscf_b.out and $outdir (output directory) </br>
  \$ set nscf_b.in; ph.x -in nscf_b.in >nscf_b.out
 
@@ -28,7 +28,7 @@ required files: nscf_b.out and $outdir (output directory) </br>
       verbosity   = 'high'
 
 
-* src_ir2pw_VASP.tar.gz: interface to the Vienna ab-initio Simulation Package.</br>
+* irvsp in src_ir2pw_VASP.tar.gz: interface to the Vienna ab-initio Simulation Package.</br>
 required files: OUTCAR and WAVECAR
 
 
@@ -36,14 +36,14 @@ required files: OUTCAR and WAVECAR
 to compute irreducible representations with interface to orthogonal tight-binding (TB) models (Wannier90, Slater-Koster, Phonon TB). </br>
 It works for phonon, electron, magnon systems.
 
-* src_ir2tb_hr.tar.gz : interface to orthogonal TB model. </br>
+* ir2tb in src_ir2tb_hr.tar.gz : interface to orthogonal TB model. </br>
 required files: tbbox.in and lda_hr.dat/soc_hr.dat </br>
 axiliaries: pwscf2tbbox.py and fc2hr.py
 
           pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in 
           fc2hr.py       : to convert ph.fc to phonon TB ph_hr.dat
 
-* src_ir2tb_ph.tar.gz : interface to QE phonon (q) calculations. </br>
+* ir2ph in src_ir2tb_ph.tar.gz : interface to QE phonon (q) calculations. </br>
 required files: tbbox.in and ph_wf.dat </br>
 axiliaries: IRphx.sh <br>
  \$ vim ph.inp <br>
