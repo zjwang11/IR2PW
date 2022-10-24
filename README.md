@@ -48,9 +48,14 @@ axiliaries: pwscf2tbbox.py and fc2hr.py
 required files: tbbox.in and ph_wf.dat </br>
 axiliaries: IRphx.sh <br>
  \$ vim ph.inp <br>
- \$ IRph.sh <br>
- \$ ph.x < q*.inp > q*-out <br>
- \$ IRphx.sh 
+
+      asf
+      bb
+      
+      
+   \$ IRphx.sh <br>
+   \$ ph.x < q*.inp > q*-out <br>
+   \$ IRphx.sh 
  
           IRphx.sh : ph.inp and/or q*.dyn/q*-out
           1. to prepare q*.inp (from ph.inp)
