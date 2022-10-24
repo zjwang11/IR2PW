@@ -63,9 +63,9 @@ axiliaries: IRphx.sh <br>
    \$ ph.x < q*.inp > q*-out <br>
    \$ IRphx.sh 
  
-          IRphx.sh : ph.inp and/or q*.dyn/q*-out
-          1. to prepare q*.inp (from ph.inp)
-          2. to convert q*.dyn to ph_wf.dat
+      IRphx.sh : ph.inp and/or q*.dyn/q*-out
+      1. to prepare q*.inp (from ph.inp)
+      2. to convert q*.dyn to ph_wf.dat
 
 
 # Notices
