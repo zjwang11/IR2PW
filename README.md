@@ -20,7 +20,7 @@ See the library details in Ref: J. Gao, et al. Comput. Phys. Comm. 261, 107760 (
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
 
 * "ir2pw" in src_ir2pw_QE.tar.gz: interface to the Quantum-Espresso package.</br>
-required files: nscf_b.out and $outdir (output directory) </br>
+required files: nscf_b.out and ./tmp (output directory) </br>
  \$ set nscf_b.in; ph.x -in nscf_b.in >nscf_b.out
 
       calculation = 'bands'
