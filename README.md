@@ -42,8 +42,8 @@ It works for phonon, electron, magnon systems.
 required files: tbbox.in and lda_hr.dat/soc_hr.dat </br>
 axiliaries: pwscf2tbbox.py and fc2hr.py
 
-     pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in 
-     fc2hr.py       : to convert ph.fc to phonon TB ph_hr.dat
+      pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in 
+      fc2hr.py       : to convert ph.fc to phonon TB ph_hr.dat
 
 * "ir2ph" in src_ir2tb_ph.tar.gz : interface to QE phonon (q) calculations. </br>
 required files: tbbox.in and ph_wf.dat </br>
