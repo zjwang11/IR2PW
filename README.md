@@ -21,8 +21,7 @@ to compute irreducible representations with interface to plane-wave (PW) DFT pac
 
 * "ir2pw" in src_ir2pw_QE.tar.gz: interface to the Quantum-Espresso package.</br>
 required files: nscf_b.out and ./tmp (output directory) </br>
- \$ set nscf_b.in
-
+ \$ vim nscf_b.in
       calculation = 'bands'
        outdir     = './tmp'
       verbosity   = 'high'
