@@ -1,6 +1,7 @@
 # IR2PW and IR2TB
 to compute Irreducible Representations by linking the IRVSP library (libIRVSP.a) to PW code and TB model.</br>
-
+Ref: J. Gao, et al. Comput. Phys. Comm. 261, 107760 (2021). https://doi.org/10.1016/j.cpc.2020.107760.
+Ref: Zhang, R. et al. arXiv:2211.04116 (2022). https://arxiv.org/abs/2211.04116
 
 # libIRVSP.a 
 This library is created by IRVSP (v2), according to the CRTs on the Bilbao Crystallographic Server (BCS). </br>
