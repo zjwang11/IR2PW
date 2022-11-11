@@ -1,6 +1,6 @@
 # IR2PW and IR2TB
 to compute Irreducible Representations by linking the IRVSP library (libIRVSP.a) to PW code and TB model.</br>
-Ref: Zhang, R. et al. arXiv:2211.04116 (2022). https://arxiv.org/abs/2211.04116.</br>
+
 
 # libIRVSP.a 
 This library is created by IRVSP (v2), according to the CRTs on the Bilbao Crystallographic Server (BCS). </br>
@@ -18,6 +18,7 @@ See the library details in Ref: J. Gao, et al. Comput. Phys. Comm. 261, 107760 (
 
 # IR2PW (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.
+Ref: Zhang, R. et al. arXiv:2211.04116 (2022). https://arxiv.org/abs/2211.04116.</br>
 
 * "ir2pw" in src_ir2pw_QE.tar.gz: interface to the Quantum-Espresso package.</br>
 required files: nscf_b.out and ./tmp (output directory) </br>
