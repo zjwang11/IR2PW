@@ -41,10 +41,10 @@ It works for phonon, electron, magnon systems.
 
 * "ir2tb" in src_ir2tb_hr.tar.gz : interface to orthogonal TB model. </br>
 required files: tbbox.in and lda_hr.dat/soc_hr.dat </br>
-axiliaries: pwscf2tbbox.py and fc2hr.py
+axiliaries: pwscf2tbbox.sh and fc2hr.py(testing)
 
-      pwscf2tbbox.py : to convert pwscf.out (QE) to tbbox.in 
-      fc2hr.py       : to convert ph.fc to phonon TB ph_hr.dat
+      pwscf2tbbox.sh : to convert pwscf.out (QE) to tbbox.in 
+      fc2hr.py       : to convert ph.fc to phonon TB ph_hr.dat (testing)
 
 * "ir2ph" in src_ir2tb_ph.tar.gz : interface to QE phonon (q) calculations. </br>
 required files: tbbox.in and ph_wf.dat </br>
