@@ -1,5 +1,5 @@
 # IR2PW and IR2TB
-to compute Irreducible Representations by linking the IRVSP library (libIRVSP.a) to PW code and TB model.</br>
+to compute Irreducible Representations by linking the IRVSP library (libIRVSP.a) to PWscf code and phonon modes.</br>
 
 
 # libIRVSP.a 
@@ -35,7 +35,7 @@ required files: nscf_b.out and ./tmp (output directory) </br>
 required files: OUTCAR and WAVECAR
 
 
-# IR2TB (with interface to Wannier90，QE/ph.x)
+# IR2TB (with interface to QE/ph.x, Wannier90)
 to compute irreducible representations with interface to orthogonal tight-binding (TB) models (Wannier90, Slater-Koster, Phonon TB). </br>
 It works for phonon, electron, magnon systems.
 
