@@ -19,7 +19,7 @@ See the library details in Ref: J. Gao, et al. Comput. Phys. Comm. 261, 107760 (
 
 # IR2PW (with interface to QE, VASP)
 to compute irreducible representations with interface to plane-wave (PW) DFT packages.</br>
-Ref: R.Zhang, et al. Phys. Rev. Research 5, 023142 (2023). https://doi.org/10.1103/PhysRevResearch.5.023142.</br>
+Ref: R. Zhang, et al. Phys. Rev. Research 5, 023142 (2023). https://doi.org/10.1103/PhysRevResearch.5.023142.</br>
 
 * "ir2pw" in src_ir2pw_qe.tar.gz: interface to the Quantum-Espresso package.</br>
 required files: nscf_b.out and ./tmp (output directory) </br>
