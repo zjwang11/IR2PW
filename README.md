@@ -31,7 +31,7 @@ required files: nscf_b.out and ./tmp (output directory) </br>
        outdir     = './tmp'
       verbosity   = 'high'
       
-     \$ ph.x < nscf_b.in > nscf_b.out
+     \$ pw.x < nscf_b.in > nscf_b.out
 
 * "irvsp" in src_ir2pw_VASP.tar.gz: interface to the Vienna ab-initio Simulation Package.</br>
 required files: OUTCAR and WAVECAR
