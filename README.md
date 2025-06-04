@@ -22,8 +22,8 @@ to compute irreducible representations with interface to plane-wave (PW) DFT pac
 Ref: R. Zhang, et al. Phys. Rev. Research 5, 023142 (2023). https://doi.org/10.1103/PhysRevResearch.5.023142.
 
 
-* "ir2pw" in src_ir2pw_qe.tar.gz: interface to the Quantum-Espresso package.</br>
-required files: nscf_b.out and ./tmp (output directory) </br>
+* "ir2pw" in src_ir2pw_qe.tar.gz: interface to the Quantum Espresso package.</br>
+required files: nscf_b.out and ./${outdir} (output directory) </br>
  \$ vim nscf_b.in
 
       calculation = 'bands'
@@ -60,12 +60,13 @@ axiliaries: IRphx.sh <br>
         prefix='pwscf',
         outdir='./tmp',
         fildyn='ph.dyn',
+        ldisp=.false.
        /
        0 0 0
       
-   \$ IRphx.sh $sgn <br>
+   \$ bash IRphx.sh $sgn <br>
    \$ ph.x < q*.inp > q*-out <br>
-   \$ IRphx.sh $sgn  
+   \$ bash IRphx.sh $sgn  
  
       IRphx.sh : ph.inp and/or q*.dyn/q*-out
       1. to prepare q*.inp (from ph.inp)
