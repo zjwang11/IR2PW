@@ -78,9 +78,11 @@ axiliaries: IRphx.sh <br>
 * Make the IRVSP library first. Then make IR2PW/IR2TB.
 * ir2pw/irvsp/ir2tb/ir2ph -sg xx -nb xx xx >outir2
 * If error 'forrtl: severe (408): fort: (33): Shape mismatch' occurs, you can comment '-traceback -check all' in lib_irrep_bcs/Makefile and recompile it.
-* For the higher version QE (> 7.1), it might be necessary to modify the <b1> in the ./tmp/pwscf.xml file as follows: <br>
-   \<reciprocal_lattice\><br>
-     \<b1>xxx xxx xxx\</b1><br>
-     \<b2>xxx xxx xxx\</b2><br>
+* For the higher version QE (> 7.1), it might be necessary to modify the '<b1>' in the ./tmp/pwscf.xml file as follows: <br>
+'''
+   <reciprocal_lattice>
+     <b1>xxx xxx xxx</b1> 
+     <b2>xxx xxx xxx</b2> 
    ...
+  '''
         
